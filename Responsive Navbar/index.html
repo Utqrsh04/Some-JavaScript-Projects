@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Responsive Navbar -->
+    <div>
+        <nav>
+            <div class="logo">Brand</div>
+    
+            <input type="checkbox" name="" id="click">
+            <label for="click" class="menu-btn" > 
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>
+                  </svg>
+            </label>
+            
+    
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Feedback</a></li>
+            </ul>
+        </nav>
+    
+        <!-- stick navbar -->
+    
+        <header>
+            <h1>Utkarsh Vishwakarma</h1>
+        </header>
+    </div>
+
+    <!-- Lorem Paragraph -->
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iure sequi harum eos, veritatis cum unde accusantium provident repellat. Dicta reiciendis tempore magnam neque autem, sed exercitationem temporibus eius, adipisci at ducimus rem voluptates earum quae quod iusto doloribus voluptate, a odio? Tempore autem suscipit rerum laborum eaque accusantium, quisquam cum fugit! Officia similique voluptatibus harum necessitatibus provident exercitationem quas explicabo autem voluptate maxime earum in, quod ipsum ipsam magnam sequi, nostrum, rem error aspernatur. Sit quos libero eaque assumenda maiores placeat esse voluptatem necessitatibus quas voluptate dolore corrupti eum, veniam omnis laboriosam iste, nobis laudantium commodi reiciendis excepturi quibusdam ipsam nisi. Ducimus odio a accusantium aliquid dolorum rerum nisi expedita similique cum et, ab eos illum, quisquam eum veniam reprehenderit quia sint neque consequatur voluptatibus necessitatibus commodi aliquam inventore animi? Sit porro voluptas, eaque laudantium minima, id assumenda optio recusandae tempora culpa quisquam quasi quibusdam at laborum ab. Temporibus harum fugiat architecto magni veritatis asperiores placeat suscipit quibusdam amet dolore molestias aliquid sint animi quisquam quod aperiam, nesciunt accusantium distinctio consequuntur laudantium modi recusandae quaerat? Obcaecati voluptate accusantium neque sed, provident ipsa, rerum tenetur deleniti repellat debitis fuga, unde eligendi omnis ut molestias non numquam rem quod cum. Optio quasi facilis eum possimus, rem eveniet exercitationem reprehenderit? Nemo est commodi aliquam deleniti tempora minus labore eligendi, et molestiae laborum voluptatem omnis suscipit adipisci. Non fuga debitis repudiandae vel culpa placeat animi sit suscipit similique alias harum, praesentium quod reprehenderit fugiat. Molestiae rerum aut vitae perferendis voluptatem? Facilis voluptates laboriosam soluta, obcaecati quia nihil quae ullam unde expedita animi voluptatum. Harum est, esse illum nisi minus quos id impedit explicabo nesciunt molestiae ratione quaerat! Asperiores modi repellat hic rem, quis unde delectus nostrum labore ullam libero enim non, nisi aut nesciunt tempora! Voluptate rerum quos doloremque illum, labore ea dignissimos. Ab quia similique aut modi blanditiis voluptates, aspernatur quisquam expedita sequi esse laboriosam, tempore cumque dolores, harum voluptatum nihil exercitationem? Consequatur temporibus aliquam possimus at harum inventore amet vitae maiores? Inventore necessitatibus id sint vero, error quas ad corrupti at hic maxime iusto quia quibusdam similique, facilis consequatur nesciunt. Deleniti eaque reiciendis, aliquam maiores expedita totam! Hic doloribus autem, placeat cumque fugit repellendus doloremque magnam ab rerum ratione, quae sunt. Ipsam illum molestias tempora facere aliquid omnis earum, similique officiis blanditiis quod officia impedit. Animi voluptas dolores deleniti quae, iusto consequatur illum. Adipisci rerum harum illo excepturi. Necessitatibus a hic ad beatae quidem dolorum sint aut, qui cum delectus amet cupiditate veniam impedit libero at dolor, reiciendis accusantium quasi? Asperiores vitae animi nostrum magnam, assumenda mollitia veritatis fugit adipisci eum nisi quaerat nulla reiciendis eos tenetur tempore neque ipsam labore? Fugit officia asperiores cum eveniet placeat, enim vitae possimus earum labore eaque consequuntur doloremque ea a commodi magni quis ex atque! Nesciunt, optio illum. Pariatur voluptatem excepturi labore officiis rem tenetur, voluptas corporis nam facilis voluptatum natus saepe blanditiis. Praesentium illum inventore nihil harum optio doloribus, sunt animi dicta repellat expedita eum similique, numquam tempore sint ad corrupti molestias fugiat!
+        </p>
+    </div>
+    
+
+    <script type="text/javascript">  
+
+        window.addEventListener('scroll' ,function() {
+            let header = document.querySelector('header');
+            header.classList.toggle("sticky" , window.scrollY > 0)
+        })
+    </script>
+
+</body>
+</html>
